@@ -1,5 +1,4 @@
 import { cva, type VariantProps } from "class-variance-authority"
-
 import { twMerge } from "tailwind-merge"
 
 const button = cva(
@@ -7,22 +6,21 @@ const button = cva(
     "justify-center",
     "inline-flex",
     "items-center",
-    "rounded-xl",
     "text-center",
     "border",
-    "border-blue-400",
+    "border-primary-violate",
     "transition-colors",
     "delay-50",
   ],
   {
     variants: {
       intent: {
-        primary: ["bg-blue-400", "text-white", "hover:enabled:bg-blue-700"],
+        primary: ["bg-primary-violate", "text-white", "hover:enabled:bg-blue-700"],
         secondary: ["bg-transparent", "text-blue-400", "hover:enabled:bg-blue-400", "hover:enabled:text-white"],
       },
       size: {
         sm: ["min-w-20", "h-full", "min-h-10", "text-sm", "py-1.5", "px-4"],
-        lg: ["min-w-32", "h-full", "min-h-12", "text-lg", "py-2.5", "px-6"],
+        lg: ["min-w-[176px]", "h-full", "min-h-[50px]", "text-[22px]", "py-2.5", "px-6"],
       },
       underline: { true: ["underline"], false: [] },
     },
