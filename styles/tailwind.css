@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #161730; /* Set your desired background color */
+}
+/* Desktop */
+@media (min-width: 1440px) {
+  .container {
+    width: 1200px; /* Adjust this value based on your design preferences */
+    margin: 0 auto; /* Center the container */
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1439px) {
+  .container {
+    width: 100%; /* Full width for tablets */
+    padding: 0 20px; /* Optional padding to give some space on the sides */
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .container {
+    width: 100%; /* Full width for mobile devices */
+    padding: 0 10px; /* Optional padding to give some space on the sides */
+  }
+}
