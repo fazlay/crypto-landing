@@ -18,16 +18,15 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          'violate': "#351A88",
-          'blue': "#3C6DD9",
-          'pink': "#FF888F",
-          'background': "#161730",
-        //from-primary-pink to-primary-blue bg-gradient-to-r
+          violate: "#351A88",
+          blue: "#3C6DD9",
+          pink: "#FF888F",
+          background: "#161730",
+          //from-primary-pink to-primary-blue bg-gradient-to-r
         },
       },
       fontFamily: {
         body: [
-      
           "Roboto",
           "Helvetica Neue",
           "Arial",
@@ -39,7 +38,6 @@ module.exports = {
           "Noto Color Emoji",
         ],
         sans: [
-         
           "Roboto",
           "Helvetica Neue",
           "Arial",
