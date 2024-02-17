@@ -10,7 +10,7 @@ const NavBar = () => {
           <div className="menu_list text-lg text-white">
             <ul className=" flex flex-row">
               <li className="px-5">Home</li>
-              <li className="px-5">About</li>
+              <li className="px-5">ABOUT ME</li>
               <li className="px-5">Contact</li>
             </ul>
           </div>
