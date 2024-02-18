@@ -1,4 +1,5 @@
 import { Button } from "components/Button/Button"
+import Features from "components/Features"
 import HeroSection from "components/HeroSection/HeroSection"
 import { LP_GRID_ITEMS } from "lp-items"
 import { Metadata } from "next"
@@ -24,6 +25,9 @@ export default function Web() {
   return (
     <>
       <HeroSection />
+      <div className="h-[50px]"></div>
+      <Features />
+      <div className="h-[50px]"></div>
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
