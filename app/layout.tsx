@@ -13,7 +13,7 @@ export const roboto = Roboto({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={roboto.className}>
+    <html lang="en" className={`${roboto.variable}`}>
       <body>
         <NavBar />
         {children}
