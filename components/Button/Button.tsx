@@ -16,7 +16,12 @@ const button = cva(
     variants: {
       intent: {
         primary: ["bg-primary-violate", "text-white", "hover:enabled:bg-blue-700"],
-        secondary: ["bg-transparent", "text-blue-400", "hover:enabled:bg-blue-400", "hover:enabled:text-white"],
+        secondary: [
+          "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1",
+          "text-blue-400",
+          "hover:enabled:bg-blue-400",
+          "hover:enabled:text-white",
+        ],
       },
       size: {
         sm: ["min-w-20", "h-full", "min-h-10", "text-sm", "py-1.5", "px-4"],

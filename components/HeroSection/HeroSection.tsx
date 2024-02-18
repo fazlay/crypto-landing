@@ -1,4 +1,5 @@
 import { Button } from "components/Button/Button"
+import { GradientButton } from "components/Button/GradientButton"
 import React from "react"
 
 const HeroSection = () => {
@@ -15,9 +16,7 @@ const HeroSection = () => {
           <p>Buy, Sell & Trade Cryptocurrency Easily and Securely</p>
           <div>
             <Button href="#">Connect Wallet</Button>
-            <Button href="#" intent="secondary">
-              Learn More
-            </Button>
+            <GradientButton href="#">Learn More</GradientButton>
           </div>
           <div className=" flex flex-row items-center">
             <p>Our Members</p>
