@@ -22,6 +22,7 @@ module.exports = {
           blue: "#3C6DD9",
           pink: "#FF888F",
           background: "#161730",
+         'dark-violate': "#290064",
           //from-primary-pink to-primary-blue bg-gradient-to-r
         },
       },

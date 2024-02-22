@@ -25,7 +25,7 @@ const button = cva(
       },
       size: {
         sm: ["min-w-20", "h-full", "min-h-10", "text-sm", "py-1.5", "px-4"],
-        lg: ["min-w-[176px]", "h-full", "min-h-[50px]", "text-[22px]", "py-2.5", "px-6"],
+        lg: ["min-w-[176px]", "h-full", "min-h-[30px]", "text-[22px]", "py-2.5", "px-6"],
       },
       underline: { true: ["underline"], false: [] },
     },

@@ -1,3 +1,4 @@
+import Footer from "components/Footer/Footer"
 import NavBar from "components/NavBar/NavBar"
 import { Roboto } from "next/font/google"
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   )

@@ -8,7 +8,7 @@ body {
 /* Desktop */
 @media (min-width: 1440px) {
   .container {
-    width: 1200px; /* Adjust this value based on your design preferences */
+    width: 1240px; /* Adjust this value based on your design preferences */
     margin: 0 auto; /* Center the container */
   }
 }
